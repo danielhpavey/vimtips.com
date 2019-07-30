@@ -1,14 +1,14 @@
 <template>
 	<div class="author">
 
-		<g-image alt="Author image" class="author__image" src="~/assets/images/author.jpg" width="180" height="180" blur="5" />
+		<g-image alt="Author image" class="author__image" src="~/assets/images/Vimlogo.svg.png" width="" height="" blur="0" />
 
 		<h1 v-if="showTitle" class="author__site-title">
 			{{ $static.metaData.siteName }}
 		</h1>
 
 		<p class="author__intro">
-			A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
+            {{ $static.metaData.siteDescription }}
 		</p>
 
 		<p class="author__links">
