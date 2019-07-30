@@ -1,7 +1,7 @@
 <template>
 	<div class="author">
 
-		<g-image alt="Author image" class="author__image" src="~/assets/images/Vimlogo.svg.png" width="" height="" blur="0" />
+		<g-image alt="Author image" class="author__image" src="~/assets/images/Vimlogo.svg" width="" height="" blur="0" />
 
 		<h1 v-if="showTitle" class="author__site-title">
 			{{ $static.metaData.siteName }}
@@ -41,7 +41,6 @@ export default {
 	padding: calc(var(--space) / 2) 0;
 
 	&__image {
-		border-radius: 100%;
 		width: 90px;
 		height: 90px;
 		margin-bottom: 1em;
