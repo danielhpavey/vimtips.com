@@ -2,7 +2,7 @@
 title: Diff This with Vim
 date: 2019-09-01
 published: true
-tags: ['Diff', 'Git']
+tags: ['Diff','Git']
 canonical_url: false
 cover_image: false
 description: The :diffthis command allows us to compare two (or more) buffers that are open in an existing Vim session
