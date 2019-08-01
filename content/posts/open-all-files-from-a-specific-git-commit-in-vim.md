@@ -3,8 +3,9 @@ title: Open all files from a specific Git Commit in Vim
 date: 2019-09-01
 published: true
 tags: ['Git']
-canonical_url: false
+series: false
 cover_image: ./images/alexandr-podvalny-220262-unsplash.jpg
+canonical_url: false
 description: I occasionally find myself needing to open all files from a specific Git commit. This is easy to do with Vim!
 
 ---
